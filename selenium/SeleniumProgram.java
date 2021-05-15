@@ -1,4 +1,4 @@
-package seleniumAssignment;
+package selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,11 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumProgram {
  
          public static void main(String [] args) throws InterruptedException{
-                  //System.setProperty("webdriver.chrome.driver",path of executable file "Chromedriver.exe" file)
+                  //System.setProperty("webdriver.chrome.driver",path of executable file "Chromedriver.exe")
 				  @BeforeSuite
 				  @Test(priority=1)
                   Public void setup()
-                  
 				  {
 				  System.setProperty("webdriver.chrome.driver", "D:/SeleniumEnvironment/chromedriver_win32/chromedriver.exe");
                   WebDriver driver = new ChromeDriver();
@@ -65,7 +64,6 @@ public class SeleniumProgram {
 							  }
 					}
 				  
-				  
 				  @Test
 				  public void ValidateDashboardMenusWithCSSSelector()
 				  {
@@ -73,7 +71,6 @@ public class SeleniumProgram {
 						
 						String Time=driver.findElement(By.Cssselctor("#menu_time_viewTimeModule > b");
 						String Maintainance=driver.findElement(By.Cssselctori("#menu_maintenance_purgeEmployee > b");
-						
 						
 				  }
                    @Test
