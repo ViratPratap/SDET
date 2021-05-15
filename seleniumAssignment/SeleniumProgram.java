@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumProgram {
  
          public static void main(String [] args) throws InterruptedException{
-                  //System.setProperty("webdriver.chrome.driver",path of executable file "Chromedriver.exe")
+                  //System.setProperty("webdriver.chrome.driver",path of executable file "Chromedriver.exe" file)
 				  @BeforeSuite
 				  @Test(priority=1)
                   Public void setup()
