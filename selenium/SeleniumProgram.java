@@ -14,7 +14,6 @@ public class SeleniumProgram {
 				  System.setProperty("webdriver.chrome.driver", "D:/SeleniumEnvironment/chromedriver_win32/chromedriver.exe");
                   WebDriver driver = new ChromeDriver();
                   String URL=driver.get("https://urldefense.com/v3/__https://opensource-demo.orangehrmlive.com/__;!!Ebr-cpPeAnfNniQ8HSAI-g_K5b7VKg!eUHa_zE72R-79ztwN6ALT8JbxDwH7TLbsfr_LU-0IgTj2mXcrVSTxn1nr0xAjGrVFltk0A$ ");
-				  
 				  }
 				  @Test(priority=2)
 				  Public void ImagesInLoginpage()
