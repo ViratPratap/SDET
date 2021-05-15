@@ -85,6 +85,7 @@ public class seleniumAsgnmt {
 							
 					  }
 
+	
 	@Test
 					  public void ValidateDashboardMenusWithXpath()
 					  {
@@ -103,5 +104,5 @@ public class seleniumAsgnmt {
 					   //Quite a driver
 					     driver.quite(); //To close all browsers;
 						 or 
-						 driver.close();  //To close only the opened browser
+						 driver.close();  
 }
