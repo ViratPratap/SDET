@@ -12,6 +12,7 @@ public class seleniumAsgnmt {
 					  @Test(priority=1)
 	                  Public
 
+	                  
 	void setup() {
 		System.setProperty("webdriver.chrome.driver", "D:/SeleniumEnvironment/chromedriver_win32/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
